@@ -117,17 +117,13 @@
 
 @media (max-width: 450px) {
 
-#image {
-  width: 100%;
-  height: 50%;
-  padding-top: 110px;
-}
-  
-#title {
-  font-size: 200%;
-}  
-
-  #tribute-info {
-  font-size: 15px;
-}
-}
+  #home {
+    flex-direction: column;
+    padding-top: 50px;
+  }
+    
+  #image {
+    width: 100%;
+    height: 50%;
+  }
+  }
